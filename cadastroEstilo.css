@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* Resetando a página */
+
+*{
+    padding: 0; 
+    margin: 0; 
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+
+}
+
+html{
+font-size: 18px;	
+}
+
+/* CONTAINER CENTRAL */
+
+.principal{
+	width: 100%;
+	height: 100%;
+}
+
+/* FORMATAÇÃO DO HEADER */
+
+header {
+	width: 100%;
+	height: 120px;
+	/* border: 5px solid #73d863; */
+	background-color: #456;
+	/*border-radius: 8px;*/
+	box-sizing: border-box;
+}
+
+#cabecalho{
+	position: relative;
+}
+
+#titulo{
+	font-family: Verdana;
+	text-align: center;
+	color: #f9f9f9;
+	font-size: 1.6em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Formatação do FORMULÁRIO CENTRAL */
+
+#formularioCentral{
+	border: 5px solid #456;
+	margin-left: 25%;
+	margin-right: 30%;
+	border-radius: 8px;
+	margin-top: 34px;
+	margin-bottom: 14px;
+}
+
+fieldset{
+	width: 90%;
+	margin: 3%;
+	padding: 2%;
+}
+
+#bloco1{
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+#botoes{
+	text-align: center;
+}
+
+/* Formatação dos INPUT'S DO FORMULÁRIO */
+
+.campos{
+	height: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 4px;
+	font-size: .8rem;
+}
+
+.bloco{
+	margin-bottom: 10px;
+}
+
+#codigo{
+	width: 55px;
+}
+
+#nome{
+	width: 350px;
+}
+
+#descricao{
+	width: 435px;
+}
+
+#email{
+	width: 250px;
+}
+
+/* Formatação dos LABELS DO FORMULÁRIO */
+
+.rotulos{
+	width: 176px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+#rtlCodigo{
+	width: 75px;
+	display: block;
+}
+
+#rtlNome{
+	width: 200px;
+	display: block;
+}
+
+#rtlDescricao{
+	display: block;
+}
+
+#lblStatus{
+	width: 75px;
+	height: 40px;
+	display: block;
+	float: left;
+}
+
+#fmtRadio{
+	margin-bottom: 10px;
+}
+
+/* Formatação do DROP DOWN */
+
+.campoDropDown{
+	width: 270px;
+	height: 35px;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 4px;
+	font-size: .8rem;
+}
+
+/* Formatação do RODA PÉ */
+
+#rodape{
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	font-size: 16px;
+	color: #f9f9f9;
+	/*border: 5px solid #73d863;*/
+	/*border-radius: 8px;*/
+	background-color: #456;
+	position: relative;
+}
+.direito{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+  background: #73d863;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 25px;
+  font-size: 1em;
+  text-align: center;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background: #65bf57;
+}
+
+#loadTextFile {
+  background: #73d863;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 25px;
+  font-size: 1em;
+  text-align: center;
+}
+
+#loadTextFile:hover {
+  background: #65bf57;
+}
+
+
+
+
+
+
